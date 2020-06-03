@@ -32,4 +32,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ bootcamp2020.mubashra --token {{secret.Surge_Token}}
+      run: surge ./ bootcamp2020.mubashra --token {{secrets.Surge_Token}}
